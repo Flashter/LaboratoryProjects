@@ -28,6 +28,7 @@ double NewtonMethod(double a, double b)
 		d = x - b;
 		b = x;
 	} while (abs(d) > eps);
+
 	if ((x < a) | (x > b))
 	{
 		cout << "На данном отрезке нет корней \n";
@@ -41,9 +42,9 @@ int _tmain()
 {
 	setlocale(LC_ALL, "Russian");
 	double a, b;
-	cout << "Введите начало отрезка ";
+	cout << "Введите x левого отрезка ";
 	cin >> a;
-	cout << "Введите конец отрезка ";
+	cout << "Введите x правого отрезка ";
 	cin >> b;
 
 	cout << "Метод Ньютона: " << NewtonMethod(a, b) << "\n";
