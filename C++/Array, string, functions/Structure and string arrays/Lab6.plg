@@ -1,0 +1,33 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Lab6 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\1\AppData\Local\Temp\RSP555A.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/Lab6.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Users\1\Desktop\До 3 февраля (готово)\Lab6\Lab6.cpp"
+]
+Creating command line "cl.exe @C:\Users\1\AppData\Local\Temp\RSP555A.tmp" 
+Creating temporary file "C:\Users\1\AppData\Local\Temp\RSP555B.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/Lab6.pdb" /debug /machine:I386 /out:"Debug/Lab6.exe" /pdbtype:sept 
+".\Debug\Lab6.obj"
+".\Debug\StdAfx.obj"
+]
+Creating command line "link.exe @C:\Users\1\AppData\Local\Temp\RSP555B.tmp"
+<h3>Output Window</h3>
+Compiling...
+Lab6.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+Lab6.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
